@@ -1,0 +1,43 @@
+body 
+{
+    background-color:#34eb52;
+}
+
+.header 
+{
+    background-color: #6b34eb;
+
+    text-align: center;
+}
+
+.games
+{
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-evenly;
+
+}
+
+.item
+{
+    position: relative;
+}
+.item p
+{
+position: absolute;
+top : 10% ;
+left: 20% ;
+opacity: 0 ;
+
+
+}
+.item:hover p
+{
+    opacity: 1;
+}
+.item:hover img
+{
+    opacity: 0.5;
+}
